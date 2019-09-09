@@ -46,7 +46,7 @@ const info = {
     
     // Br - Array de inteiros, onde cada indice do array é um ponto no gráfico;
     
-    values: [],
+    steps: [],
     
 }
 
