@@ -20,7 +20,7 @@ Br - Os arquivos da biblioteca "assets/css/chart-gen.css" e "assets/js/chart-gen
 
 // Br - Instancia do ChartGen, precisa ter o container que irá conter o gráfico como parametro;
 
--- const myChart = new ChartGen(document.querySelector(selector));
+const myChart = new ChartGen(document.querySelector(selector));
 
 #### Init
 
@@ -54,7 +54,7 @@ const info = {
 
 // Br - Inicializa o gráfico de acordo com os parametros passados;
 
--- myChart.init(info, options, ()=> { callback(); });
+myChart.init(info, options, ()=> { callback(); });
 
 
 
