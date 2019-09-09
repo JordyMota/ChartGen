@@ -12,6 +12,8 @@ Br - Os arquivos da biblioteca "assets/css/chart-gen.css" e "assets/js/chart-gen
 
 ### Initialization
 
+// Documentation in progress
+
 #### Constructor
 
 // En - Instance of the ChartGen, must have the container that hold the graphic as parameter;
@@ -38,17 +40,21 @@ const info = {
     
     values: [],
     
+    // steps: Array - OPTIONAL
+    
+    // En - Integer array, where each array index is a dot on the graph;
+    
+    // Br - Array de inteiros, onde cada indice do array é um ponto no gráfico;
+    
+    values: [],
+    
 }
 
 // En - Initialize the graph according to the passed parameters;
 
 // Br - Inicializa o gráfico de acordo com os parametros passados;
 
--- myChart.init(info, options, ()=> {
-
---     callback();
-
--- });
+-- myChart.init(info, options, ()=> { callback(); });
 
 
 
