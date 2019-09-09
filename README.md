@@ -46,7 +46,7 @@ const info = {
 
 -- myChart.init(info, options, ()=> {
 
---    callback();
+--     callback();
 
 -- });
 
