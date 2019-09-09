@@ -21,13 +21,13 @@ Br - Os arquivos da biblioteca "assets/css/chart-gen.css" e "assets/js/chart-gen
 
 #### Init
 
-##### Info: REQUIRED
+##### Info: Object - REQUIRED
 
 // En - Chart data, object that will define the graphic;
 // Br - Dados do gráfico, objeto que definirá o gráfico;
 
 const info = {
-    ###### values: REQUIRED
+    // values: Array - REQUIRED
     // En - Integer array, where each array index is a dot on the graph;
     // Br - Array de inteiros, onde cada indice do array é um ponto no gráfico;
     values: [],
