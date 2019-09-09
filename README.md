@@ -10,7 +10,9 @@ En - The library files "assets/css/chart-gen.css" and "assets/js/chart-gen.js" c
 
 Br - Os arquivos da biblioteca "assets/css/chart-gen.css" e "assets/js/chart-gen.js" podem ser encontrados no repositório, além de suas versões minificadas. Agora é só baixar e começar a criar seus gráficos;
 
-### Docs
+### Init
+
+#### Constructor
 
 
 
